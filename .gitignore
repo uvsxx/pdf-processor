@@ -1,0 +1,42 @@
+## .NET
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userprefs
+*.swp
+.vs/
+.vscode/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+project.lock.json
+project.fragment.lock.json
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## EF Core
+*.mdf
+*.ldf
+
+## Local
+appsettings.*.local.json
+local.settings.json
