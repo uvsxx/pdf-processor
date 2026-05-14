@@ -39,10 +39,4 @@ public sealed class FileSystemStorage : IFileStorage
         return Task.FromResult(stream);
     }
 
-    public Task DeleteAsync(string key, CancellationToken ct)
-    {
-        var fullPath = Path.Combine(_rootPath, key);
-        if (File.Exists(fullPath)) File.Delete(fullPath);
-        return Task.CompletedTask;
-    }
 }

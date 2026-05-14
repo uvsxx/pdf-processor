@@ -4,7 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <UserSecretsId>pdfprocessor-api</UserSecretsId>
+
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\PdfProcessor.Infrastructure\PdfProcessor.Infrastructure.csproj" />
