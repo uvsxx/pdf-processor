@@ -4,7 +4,7 @@ API + Worker для загрузки PDF и асинхронного извле�
 
 ## Стек
 
-- .NET 8 (Minimal API + Generic Host)
+- .NET 10 (Minimal API + Generic Host)
 - EF Core, Npgsql
 - MassTransit (RabbitMQ, EF Core Outbox/Inbox)
 - [PdfPig](https://github.com/UglyToad/PdfPig) для извлечения текста
